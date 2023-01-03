@@ -4,41 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FullStackTechStack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Echo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Greeting.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/graphql/mutations.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/graphql/queries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/FullstackApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/SampleController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/ServletInitializer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/src/main/resources/graphql/schema.graphqls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fullstack/src/test/kotlin/ca/sashaphoto/fullstack/FullstackApplicationTests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launch-backend.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launch-frontend.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launch.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Add frontend and backend">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/MessageBubble.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Messages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/graphql/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/stories/Messages.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/Entities.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/MessageService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/MessagesController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/Repositories.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Echo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Echo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/graphql/mutations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/graphql/mutations.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/graphql/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/graphql/queries.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/FullstackApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/FullstackApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/SampleController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/SampleController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/src/main/resources/graphql/schema.graphqls" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,25 +58,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/fullstack" />
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
-      </map>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,31 +78,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sasha/IdeaProjects/FullStackTechStack&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.1321004&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;57852d4f11b404c49bdf1583b963762f&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/sasha/IdeaProjects/FullStackTechStack/frontend/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "/Users/sasha/IdeaProjects/FullStackTechStack",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.1321004",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "57852d4f11b404c49bdf1583b963762f",
+    "ts.external.directory.path": "/Users/sasha/IdeaProjects/FullStackTechStack/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend/src" />
@@ -197,7 +175,16 @@
       <workItem from="1672784975067" duration="116000" />
       <workItem from="1672785543770" duration="1193000" />
       <workItem from="1672786799962" duration="73000" />
+      <workItem from="1672786888121" duration="2897000" />
     </task>
+    <task id="LOCAL-00001" summary="Add frontend and backend">
+      <created>1672786910008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672786910008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,5 +200,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add frontend and backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add frontend and backend" />
   </component>
 </project>
