@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Add postgres acton">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/backend-build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/backend-build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/kotlin/ca/sashaphoto/fullstack/FullstackApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/kotlin/ca/sashaphoto/fullstack/FullstackApplicationTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +304,7 @@
       <workItem from="1672785543770" duration="1193000" />
       <workItem from="1672786799962" duration="73000" />
       <workItem from="1672786888121" duration="3886000" />
-      <workItem from="1672790798766" duration="2806000" />
+      <workItem from="1672790798766" duration="3654000" />
     </task>
     <task id="LOCAL-00001" summary="Add frontend and backend">
       <created>1672786910008</created>
@@ -418,7 +418,35 @@
       <option name="project" value="LOCAL" />
       <updated>1672793137391</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add postgres acton">
+      <created>1672793615114</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672793615114</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add postgres acton">
+      <created>1672793697319</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1672793697319</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add postgres acton">
+      <created>1672793771484</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1672793771484</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add postgres acton">
+      <created>1672793854461</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1672793854461</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
