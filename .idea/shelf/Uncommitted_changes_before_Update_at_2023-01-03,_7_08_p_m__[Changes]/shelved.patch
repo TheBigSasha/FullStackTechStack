@@ -1,0 +1,205 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"c05c7a61-3bff-4722-b77f-80e9c97881f2\" name=\"Changes\" comment=\"Add frontend and backend\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/git_toolbox_prj.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/Container.tsx\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/MessageBubble.tsx\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/components/Messages.tsx\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/graphql/types.ts\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/frontend/src/stories/Messages.stories.tsx\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/Entities.kt\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/MessageService.kt\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/MessagesController.kt\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/Repositories.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/jpa-buddy.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/jpa-buddy.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/frontend/package-lock.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/frontend/package-lock.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/frontend/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/frontend/package.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/frontend/src/App.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/frontend/src/App.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/frontend/src/components/Echo.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/frontend/src/components/Echo.tsx\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/frontend/src/graphql/mutations.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/frontend/src/graphql/mutations.ts\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/frontend/src/graphql/queries.ts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/frontend/src/graphql/queries.ts\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/fullstack/build.gradle.kts\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fullstack/build.gradle.kts\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/FullstackApplication.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/FullstackApplication.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/SampleController.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/SampleController.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/fullstack/src/main/resources/application.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fullstack/src/main/resources/application.properties\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/fullstack/src/main/resources/graphql/schema.graphqls\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fullstack/src/main/resources/graphql/schema.graphqls\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CodeStyleSettingsInfer\">\n    <option name=\"done\" value=\"true\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$/fullstack\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <projects_view>\n          <tree_state>\n            <expand />\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"TypeScript File\" />\n        <option value=\"Class\" />\n        <option value=\"Kotlin Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectCodeStyleSettingsMigration\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Jppe99p0wyyuoQdwGfQkgV2Y5N\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RequestMappingsPanelOrder0\": \"0\",\n    \"RequestMappingsPanelOrder1\": \"1\",\n    \"RequestMappingsPanelWidth0\": \"75\",\n    \"RequestMappingsPanelWidth1\": \"75\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"jdk.selected.JAVA_MODULE\": \"openjdk-19\",\n    \"last_opened_file_path\": \"/Users/sasha/IdeaProjects/FullStackTechStack\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.1321004\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\n    \"spring.configuration.checksum\": \"57852d4f11b404c49bdf1583b963762f\",\n    \"ts.external.directory.path\": \"/Users/sasha/IdeaProjects/FullStackTechStack/frontend/node_modules/typescript/lib\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/frontend/src\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Spring Boot.FullstackApplication\">\n    <configuration default=\"true\" type=\"AZURE_FUNCTION_SUPPORT\" factoryName=\"Run Functions\">\n      <option name=\"appName\" />\n      <option name=\"appServicePlanName\" />\n      <option name=\"appServicePlanResourceGroup\" />\n      <option name=\"appSettingsKey\" value=\"8fcba6e6-68c3-442b-85ec-8982d92b7288\" />\n      <option name=\"artifact\" />\n      <option name=\"autoPort\" value=\"true\" />\n      <option name=\"debugOptions\" />\n      <option name=\"deployment\" />\n      <option name=\"deploymentStagingDirectoryPath\" />\n      <option name=\"funcPath\" />\n      <option name=\"funcPort\" value=\"0\" />\n      <option name=\"hostJsonPath\" />\n      <option name=\"insightsName\" />\n      <option name=\"instrumentationKey\" />\n      <option name=\"javaVersion\" />\n      <option name=\"localSettingsJsonPath\" />\n      <option name=\"moduleName\" />\n      <option name=\"os\" />\n      <option name=\"pricingTier\" />\n      <option name=\"providerMap\">\n        <map />\n      </option>\n      <option name=\"region\" />\n      <option name=\"resourceGroup\" />\n      <option name=\"stagingFolder\" />\n      <option name=\"subscription\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"FullstackApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\n      <module name=\"fullstack.main\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"ca.sashaphoto.fullstack.FullstackApplication\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"start\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\n      <package-json value=\"$PROJECT_DIR$/frontend/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"start\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"npm.start\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"c05c7a61-3bff-4722-b77f-80e9c97881f2\" name=\"Changes\" comment=\"\" />\n      <created>1672784973291</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1672784973291</updated>\n      <workItem from=\"1672784975067\" duration=\"116000\" />\n      <workItem from=\"1672785543770\" duration=\"1193000\" />\n      <workItem from=\"1672786799962\" duration=\"73000\" />\n      <workItem from=\"1672786888121\" duration=\"2897000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Add frontend and backend\">\n      <created>1672786910008</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1672786910008</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Add frontend and backend\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Add frontend and backend\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 73a95b4fa80232da6990cb3989e00b1c998b1b81)
++++ b/.idea/workspace.xml	(date 1672790892500)
+@@ -4,30 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Add frontend and backend">
+-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Container.tsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/MessageBubble.tsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Messages.tsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/graphql/types.ts" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/frontend/src/stories/Messages.stories.tsx" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/Entities.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/MessageService.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/MessagesController.kt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/Repositories.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
++    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Add frontend and backend with some queries and persistence">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Echo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Echo.tsx" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/frontend/src/graphql/mutations.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/graphql/mutations.ts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/frontend/src/graphql/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/graphql/queries.ts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fullstack/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/build.gradle.kts" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/FullstackApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/FullstackApplication.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/SampleController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/src/main/kotlin/ca/sashaphoto/fullstack/SampleController.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fullstack/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/src/main/resources/application.properties" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fullstack/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/fullstack/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -78,32 +56,32 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RequestMappingsPanelOrder0": "0",
+-    "RequestMappingsPanelOrder1": "1",
+-    "RequestMappingsPanelWidth0": "75",
+-    "RequestMappingsPanelWidth1": "75",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "jdk.selected.JAVA_MODULE": "openjdk-19",
+-    "last_opened_file_path": "/Users/sasha/IdeaProjects/FullStackTechStack",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.1321004",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "spring.configuration.checksum": "57852d4f11b404c49bdf1583b963762f",
+-    "ts.external.directory.path": "/Users/sasha/IdeaProjects/FullStackTechStack/frontend/node_modules/typescript/lib",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
++    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
++    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
++    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/sasha/IdeaProjects/FullStackTechStack&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.1321004&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
++    &quot;spring.configuration.checksum&quot;: &quot;57852d4f11b404c49bdf1583b963762f&quot;,
++    &quot;ts.external.directory.path&quot;: &quot;/Users/sasha/IdeaProjects/FullStackTechStack/frontend/node_modules/typescript/lib&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/frontend/src" />
+@@ -142,8 +120,19 @@
+       </method>
+     </configuration>
+     <configuration name="FullstackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+-      <module name="fullstack.main" />
++      <option name="ACTIVE_PROFILES" />
++      <module name="ca.sashaphoto.fullstack.main" />
+       <option name="SPRING_BOOT_MAIN_CLASS" value="ca.sashaphoto.fullstack.FullstackApplication" />
++      <extension name="net.ashald.envfile">
++        <option name="IS_ENABLED" value="false" />
++        <option name="IS_SUBST" value="false" />
++        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
++        <option name="IS_IGNORE_MISSING_FILES" value="false" />
++        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
++        <ENTRIES>
++          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
++        </ENTRIES>
++      </extension>
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -158,6 +147,10 @@
+       <envs />
+       <method v="2" />
+     </configuration>
++    <list>
++      <item itemvalue="npm.start" />
++      <item itemvalue="Spring Boot.FullstackApplication" />
++    </list>
+     <recent_temporary>
+       <list>
+         <item itemvalue="npm.start" />
+@@ -175,7 +168,7 @@
+       <workItem from="1672784975067" duration="116000" />
+       <workItem from="1672785543770" duration="1193000" />
+       <workItem from="1672786799962" duration="73000" />
+-      <workItem from="1672786888121" duration="2897000" />
++      <workItem from="1672786888121" duration="3886000" />
+     </task>
+     <task id="LOCAL-00001" summary="Add frontend and backend">
+       <created>1672786910008</created>
+@@ -184,7 +177,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1672786910008</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Add frontend and backend with some queries and persistence">
++      <created>1672790004109</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1672790004109</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -203,6 +203,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Add frontend and backend" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Add frontend and backend" />
++    <MESSAGE value="Add frontend and backend with some queries and persistence" />
++    <option name="LAST_COMMIT_MESSAGE" value="Add frontend and backend with some queries and persistence" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1672790912819)
++++ b/.gitignore	(date 1672790912819)
+@@ -0,0 +1,1 @@
++/backend/build/
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\n  <component name=\"GradleSettings\">\n    <option name=\"linkedExternalProjectsSettings\">\n      <GradleProjectSettings>\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$/fullstack\" />\n        <option name=\"gradleJvm\" value=\"corretto-17\" />\n        <option name=\"modules\">\n          <set>\n            <option value=\"$PROJECT_DIR$/fullstack\" />\n          </set>\n        </option>\n      </GradleProjectSettings>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision 73a95b4fa80232da6990cb3989e00b1c998b1b81)
++++ b/.idea/gradle.xml	(date 1672790847915)
+@@ -5,6 +5,16 @@
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
++        <option name="gradleJvm" value="corretto-17" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$/backend" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++      <GradleProjectSettings>
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$/fullstack" />
+         <option name="gradleJvm" value="corretto-17" />
+         <option name="modules">
