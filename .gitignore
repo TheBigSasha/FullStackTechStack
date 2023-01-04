@@ -1,3 +1,4 @@
 /backend/build/
 *.jar
 !/backend/gradle/wrapper/gradle-wrapper.jar
+/frontend/storybook-static/
