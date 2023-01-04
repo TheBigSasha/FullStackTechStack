@@ -10,7 +10,6 @@ export const Messages: React.FC<{}> = () => {
     data: messageListData,
     loading: messageListLoading,
     error: messageListError,
-    refetch,
     startPolling,
     stopPolling,
   } = useQuery(LIST_MESSAGES);
@@ -18,7 +17,6 @@ export const Messages: React.FC<{}> = () => {
   const [
     sendMessage,
     {
-      data: sendMessageData,
       loading: sendMessageLoading,
       error: sendMessageError,
     },
