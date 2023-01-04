@@ -1,0 +1,17 @@
+type Query {
+  greeting: String
+  oAuthGreeting: String
+  listMessages: [Message]
+}
+
+type Mutation {
+  echo(message: String): String
+  oAuthEcho(message: String): String
+  sendMessage(message: String): String
+}
+
+type Message {
+  text: String
+  timestamp: String
+  id: ID
+}
