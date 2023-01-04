@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Update storybook">
-      <change beforePath="$PROJECT_DIR$/backend/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Remove unused vars" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +38,35 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="fullstack" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fullstack" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fullstack" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fullstack" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fullstack" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fullstack" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -211,8 +238,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="build-storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Gradle.backend [wrapper]" />
+      <item itemvalue="npm.build-storybook" />
       <item itemvalue="npm.Frontend (dev)" />
       <item itemvalue="npm.Frontend (prod)" />
       <item itemvalue="npm.Frontend (storybook)" />
@@ -221,6 +259,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.backend [wrapper]" />
+        <item itemvalue="npm.build-storybook" />
         <item itemvalue="npm.Frontend (prod)" />
         <item itemvalue="npm.Frontend (storybook)" />
         <item itemvalue="npm.Frontend (dev)" />
@@ -239,7 +278,7 @@
       <workItem from="1672785543770" duration="1193000" />
       <workItem from="1672786799962" duration="73000" />
       <workItem from="1672786888121" duration="3886000" />
-      <workItem from="1672790798766" duration="1254000" />
+      <workItem from="1672790798766" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="Add frontend and backend">
       <created>1672786910008</created>
@@ -297,7 +336,35 @@
       <option name="project" value="LOCAL" />
       <updated>1672791908108</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update storybook">
+      <created>1672792086353</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672792086353</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update storybook">
+      <created>1672792137784</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672792137784</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Remove unused vars">
+      <created>1672792149533</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672792149533</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Remove unused vars">
+      <created>1672792227673</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672792227673</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +385,7 @@
     <MESSAGE value="Add frontend and backend" />
     <MESSAGE value="Add frontend and backend with some queries and persistence" />
     <MESSAGE value="Update storybook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update storybook" />
+    <MESSAGE value="Remove unused vars" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused vars" />
   </component>
 </project>
