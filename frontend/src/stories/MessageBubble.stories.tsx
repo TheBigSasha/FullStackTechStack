@@ -1,20 +1,24 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { Messages } from "../components/Messages";
+import { MessageBubble } from "../components/MessageBubble";
 
 export default {
-  title: "Example/Messages",
-  component: Messages,
+  title: "Example/MessageBubble",
+  component: MessageBubble,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
     layout: "fullscreen",
   },
-} as ComponentMeta<typeof Messages>;
+} as ComponentMeta<typeof MessageBubble>;
 
-const Template: ComponentStory<typeof Messages> = (args) => (
-  <Messages {...args} />
+const Template: ComponentStory<typeof MessageBubble> = (args) => (
+  <MessageBubble {...args} />
 );
 
 export const Default = Template.bind({});
+Default.args = {
+  message: "Hello World",
+  timestamp: "2023-01-03 19:17:56.145",
+}
 
 // More on interaction testing: https://storybook.js.org/docs/react/writing-tests/interaction-testing

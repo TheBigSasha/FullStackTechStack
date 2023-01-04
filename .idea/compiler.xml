@@ -3,6 +3,10 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="backend" target="18" />
+      <module name="backend.main" target="18" />
+      <module name="backend.test" target="18" />
+      <module name="ca.sashaphoto.fullstack.main" target="18" />
+      <module name="ca.sashaphoto.fullstack.test" target="18" />
     </bytecodeTargetLevel>
   </component>
 </project>

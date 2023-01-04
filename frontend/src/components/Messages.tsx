@@ -3,7 +3,7 @@ import { LIST_MESSAGES } from "../graphql/queries";
 import React, { useEffect } from "react";
 import { SEND_MESSAGE } from "../graphql/mutations";
 import { Message } from "../graphql/types";
-import { MessageBubble, MessageTimestamp } from "./MessageBubble";
+import { MessageBubble } from "./MessageBubble";
 
 export const Messages: React.FC<{}> = () => {
   const {
@@ -42,10 +42,7 @@ export const Messages: React.FC<{}> = () => {
       <h2>Messages (persistent)</h2>
       {messageListData &&
         messageListData.listMessages.map((message: Message) => (
-          <MessageBubble key={message.id}>
-            {message.text}{" "}
-            <MessageTimestamp>{message.timestamp}</MessageTimestamp>
-          </MessageBubble>
+          <MessageBubble key={message.id} message={message.text} timestamp={message.timestamp}/>
         ))}
       <input
         type="text"

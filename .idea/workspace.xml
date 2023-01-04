@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Add frontend and backend with some queries and persistence" />
+    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Add frontend and backend with some queries and persistence">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +31,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fullstack" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -47,6 +57,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,7 +105,7 @@
       <recent name="$PROJECT_DIR$/frontend/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.FullstackApplication">
+  <component name="RunManager" selected="npm.Frontend (storybook)">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -124,9 +137,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FullstackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Backend" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
-      <module name="ca.sashaphoto.fullstack.main" />
+      <module name="fullstack.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ca.sashaphoto.fullstack.FullstackApplication" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
@@ -142,7 +155,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="Frontend (dev)" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
       <scripts>
@@ -152,13 +165,37 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Frontend (prod)" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Frontend (storybook)" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="npm.start" />
-      <item itemvalue="Spring Boot.FullstackApplication" />
+      <item itemvalue="npm.Frontend (dev)" />
+      <item itemvalue="npm.Frontend (prod)" />
+      <item itemvalue="npm.Frontend (storybook)" />
+      <item itemvalue="Spring Boot.Backend" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
+        <item itemvalue="npm.Frontend (prod)" />
+        <item itemvalue="npm.Frontend (storybook)" />
+        <item itemvalue="npm.Frontend (dev)" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +211,7 @@
       <workItem from="1672785543770" duration="1193000" />
       <workItem from="1672786799962" duration="73000" />
       <workItem from="1672786888121" duration="3886000" />
-      <workItem from="1672790798766" duration="242000" />
+      <workItem from="1672790798766" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="Add frontend and backend">
       <created>1672786910008</created>
@@ -204,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672791007750</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add frontend and backend with some queries and persistence">
+      <created>1672791121033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672791121033</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import React from "react";
 
-export const MessageBubble = styled.div`
+ const MessageBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +18,7 @@ export const MessageBubble = styled.div`
   position: relative;
 `;
 
-export const MessageTimestamp = styled.div`
+ const MessageTimestamp = styled.div`
   font-size: 0.8rem;
   color: #999;
   margin-top: 0.5rem;
@@ -26,3 +27,21 @@ export const MessageTimestamp = styled.div`
   bottom: 0.5rem;
   right: 0.5rem;
 `;
+
+ interface MessageBubbleProps {
+    message: string;
+    timestamp: string;
+ }
+
+    export const MessageBubble: React.FC<MessageBubbleProps> = ({
+    message,
+    timestamp,
+    }
+) => {
+    return (
+        <MessageBox>
+            {message}
+            <MessageTimestamp>{timestamp}</MessageTimestamp>
+        </MessageBox>
+    );
+    }
