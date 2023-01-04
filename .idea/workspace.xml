@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Add frontend and backend with some queries and persistence">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Update storybook">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +208,7 @@
       <workItem from="1672785543770" duration="1193000" />
       <workItem from="1672786799962" duration="73000" />
       <workItem from="1672786888121" duration="3886000" />
-      <workItem from="1672790798766" duration="605000" />
+      <workItem from="1672790798766" duration="1072000" />
     </task>
     <task id="LOCAL-00001" summary="Add frontend and backend">
       <created>1672786910008</created>
@@ -248,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672791121033</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update storybook">
+      <created>1672791581810</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672791581810</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +272,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add frontend and backend" />
     <MESSAGE value="Add frontend and backend with some queries and persistence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add frontend and backend with some queries and persistence" />
+    <MESSAGE value="Update storybook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update storybook" />
   </component>
 </project>
