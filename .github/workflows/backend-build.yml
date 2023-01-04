@@ -18,6 +18,34 @@ permissions:
   contents: read
 
 jobs:
+  services:
+    # label used to access the service container
+    # Use docker to run postgresql for testing
+    # docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgresUser -e POSTGRES_PASSWORD=postgresPW -e POSTGRES_DB=postgresDB -d postgres
+    postgres:
+      # Docker Hub image
+      image: postgres:latest
+      # service environment variables
+      # `POSTGRES_HOST` is `postgres`
+      env:
+        # optional (defaults to `postgres`)
+        POSTGRES_DB: myPostgresDb
+        # required
+        POSTGRES_PASSWORD: postgresPW
+        # optional (defaults to `5432`)
+        POSTGRES_PORT: 5432
+        # optional (defaults to `postgres`)
+        POSTGRES_USER:  postgresUser
+      ports:
+        # maps tcp port 5432 on service container to the host
+        - 5455:5432
+      # set health checks to wait until postgres has started
+      options: >-
+        --health-cmd pg_isready
+        --health-interval 10s
+        --health-timeout 5s
+        --health-retries 5
+
   build:
     runs-on: ubuntu-latest
     defaults:
@@ -25,18 +53,15 @@ jobs:
       # Backend folder working directory.
         working-directory: backend
     steps:
-
     - uses: actions/checkout@v3
-      # Use docker to run postgresql for testing
-      # docker run --name myPostgresDb -p 5455:5432 -e POSTGRES_USER=postgresUser -e POSTGRES_PASSWORD=postgresPW -e POSTGRES_DB=postgresDB -d postgres
-    - name: Set up Postgres
-      uses: harmon758/postgresql-action@v1
-      with:
-          postgresql version: '12'
-          postgresql db: postgresDB
-          postgresql user: postgresUser
-          postgresql password: postgresPW
-          postgresql port: 5455
+    - name: Install PostgreSQL client
+      run: |
+            apt-get update
+            apt-get install --yes postgresql-client
+    - name: Query database
+      run: psql -h postgres -d myPostgresDB -U postgresUser -c 'SELECT 1;'
+      env:
+          PGPASSWORD: postgresPW
     - name: Set up JDK 18
       uses: actions/setup-java@v3
       with:
