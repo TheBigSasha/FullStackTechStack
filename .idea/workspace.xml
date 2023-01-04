@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Update storybook">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +26,20 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/backend">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="fullstack" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fullstack" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -102,7 +110,7 @@
       <recent name="$PROJECT_DIR$/frontend/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Frontend (storybook)">
+  <component name="RunManager" selected="Gradle.backend [wrapper]">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -133,6 +141,27 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="backend [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="Backend" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
@@ -183,6 +212,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.backend [wrapper]" />
       <item itemvalue="npm.Frontend (dev)" />
       <item itemvalue="npm.Frontend (prod)" />
       <item itemvalue="npm.Frontend (storybook)" />
@@ -190,6 +220,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.backend [wrapper]" />
         <item itemvalue="npm.Frontend (prod)" />
         <item itemvalue="npm.Frontend (storybook)" />
         <item itemvalue="npm.Frontend (dev)" />
@@ -208,7 +239,7 @@
       <workItem from="1672785543770" duration="1193000" />
       <workItem from="1672786799962" duration="73000" />
       <workItem from="1672786888121" duration="3886000" />
-      <workItem from="1672790798766" duration="1072000" />
+      <workItem from="1672790798766" duration="1254000" />
     </task>
     <task id="LOCAL-00001" summary="Add frontend and backend">
       <created>1672786910008</created>
@@ -252,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672791581810</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update storybook">
+      <created>1672791875432</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672791875432</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update storybook">
+      <created>1672791908108</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672791908108</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
