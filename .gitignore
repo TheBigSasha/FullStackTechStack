@@ -1,1 +1,3 @@
 /backend/build/
+*.jar
+!/backend/gradle/wrapper/gradle-wrapper.jar
