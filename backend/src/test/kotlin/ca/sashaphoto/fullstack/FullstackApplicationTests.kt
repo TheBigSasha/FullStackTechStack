@@ -8,6 +8,8 @@ class FullstackApplicationTests {
 
     @Test
     fun contextLoads() {
+        println("Implement some tests here dawg")
+        assert(true)
     }
 
 }
