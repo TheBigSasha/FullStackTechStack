@@ -22,7 +22,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    container: openjdk:18
+    container: node:latest # even tho this is a java proj, we use this container cause xargs not available with openjdk:18
     services:
       # label used to access the service container
       # Use docker to run postgresql for testing
