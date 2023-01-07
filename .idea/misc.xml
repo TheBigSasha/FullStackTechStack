@@ -5,6 +5,9 @@
     <file type="web" url="file://$PROJECT_DIR$/backend" />
     <file type="web" url="file://$PROJECT_DIR$/fullstack" />
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="FLOW" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="18" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

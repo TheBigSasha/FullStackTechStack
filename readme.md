@@ -6,3 +6,4 @@ Run Database:
 
 Run Full Stack:
 `sudo sh launch.sh`
+ 
