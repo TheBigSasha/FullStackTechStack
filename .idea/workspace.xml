@@ -4,44 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Add frontend screenshot">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/main/ca/sashaphoto/fullstack/Entities.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/main/ca/sashaphoto/fullstack/FullstackApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/main/ca/sashaphoto/fullstack/MessageService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/main/ca/sashaphoto/fullstack/MessagesController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/main/ca/sashaphoto/fullstack/Repositories.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/main/ca/sashaphoto/fullstack/SampleController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/main/ca/sashaphoto/fullstack/ServletInitializer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/main/graphql/schema.graphqls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bin/test/ca/sashaphoto/fullstack/FullstackApplicationTests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/.expo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/.expo/devices.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/components/Container.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/components/Echo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/components/Greeting.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/components/MessageBubble.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/components/Messages.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/graphql/mutations.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/graphql/queries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/graphql/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/mobile.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c05c7a61-3bff-4722-b77f-80e9c97881f2" name="Changes" comment="Add mobile apps with React Native">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/android.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -482,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672810666426</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add mobile apps with React Native">
+      <created>1673061282031</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673061282031</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,6 +484,7 @@
     <MESSAGE value="Add postgres acton" />
     <MESSAGE value="remove test to see if it passes hehe" />
     <MESSAGE value="Add frontend screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add frontend screenshot" />
+    <MESSAGE value="Add mobile apps with React Native" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mobile apps with React Native" />
   </component>
 </project>
